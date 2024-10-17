@@ -367,7 +367,7 @@ section .hero {
     justify-content: flex-start;
     align-items: center;
     background-color: #001b3f;
-    min-height: 400px;
+    min-height: 200px;
     width: 100%;
     padding-bottom: 32px;
 }
