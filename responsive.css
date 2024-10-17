@@ -364,15 +364,17 @@ section .hero {
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #001b3f;
-    height: 30vh;
+    min-height: 400px;
     width: 100%;
+    padding-bottom: 32px;
 }
 
 .footer-description {
     font-family: 'Roboto';
     color: #a8a8a8;
     font-size: 22px;
+    margin-top: 18px;
 }
