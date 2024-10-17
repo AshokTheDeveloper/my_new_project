@@ -27,7 +27,7 @@ body {
     position: relative;
 }
 
-/* ----------------- Header --------------------*/
+
 header {
     position: fixed;
     top: 0;
@@ -82,7 +82,6 @@ header {
 }
 
 
-/* ----------------- HERO ------------------- */
 section .hero {
     background: linear-gradient(45deg, rgba(161, 29, 255, 0.589), rgba(163, 34, 255, 0.685)), url('https://images.pexels.com/photos/209955/pexels-photo-209955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-position: center;
@@ -139,7 +138,6 @@ section .hero {
 
 
 
-/* -------------- About ------------ */
 .about-wrapper {
     display: flex;
     flex-direction: column;
@@ -177,7 +175,8 @@ section .hero {
     box-shadow: 0 0 24px 8px rgba(201, 201, 201, 0.473);
 }
 
-/*  --------------- Education --------------- */
+
+
 .education-wrapper {
     display: flex;
     flex-direction: column;
@@ -227,7 +226,8 @@ section .hero {
 }
 
 
-/*------------------- Skills ------------------- */
+
+
 .skills-wrapper {
     display: flex;
     flex-direction: column;
@@ -271,7 +271,7 @@ section .hero {
     font-weight: normal;
 }
 
-/* ------------------- Projects ----------------- */
+
 .projects-wrapper {
     display: flex;
     flex-direction: column;
@@ -312,7 +312,8 @@ section .hero {
     border: 1px solid #d6d6d68f;
 }
 
-/* --------------------- Achievements ------------------ */
+
+
 .achievements-wrapper {
     display: flex;
     flex-direction: column;
@@ -359,7 +360,7 @@ section .hero {
     padding: 24px;
 }
 
-/* --------------------- Footer ------------------------ */
+
 .footer {
     display: flex;
     flex-direction: column;
