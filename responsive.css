@@ -257,9 +257,6 @@ section .hero {
     font-size: 30px;
 }
 
-.skill-heading:hover {
-    font-size: 40px;
-}
 
 .skill-title {
     font-family: 'Roboto';
