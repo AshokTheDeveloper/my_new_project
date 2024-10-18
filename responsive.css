@@ -23,10 +23,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    position: relative;
-}
-
 
 header {
     position: fixed;
@@ -37,14 +33,30 @@ header {
     color: #f9fbfe;
     width: 100%;
     box-shadow: var(--box-shadow);
-}
+    height: 80px;
+} 
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    color: #f9fbfe;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    height: 80px;
+}
 
 .nav-logo {
     color: var(--brand-color);
     font-size: var(--brand-font-size);
     font-weight: var(--font-weight);
     text-decoration: none;
+    padding-left: 2%;
 }
 
 .nav-logo:hover {
@@ -75,7 +87,6 @@ header {
 
 @media (max-width: 991px) {
     .links {
-        /* margin-top: 18px; */
         margin-bottom: 24px;
 
     }
@@ -321,11 +332,11 @@ section .hero {
     align-items: center;
     min-height: 100vh;
     background-image: url('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    padding: 16px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 16px;
 }
 
 .achievement-heading {
@@ -356,7 +367,9 @@ section .hero {
     background-color: rgba(255, 1, 1, 0);
     backdrop-filter: blur(24px);
     border-radius: 12px;
+    border: 1px solid #d6d6d68f;
     position: relative;
+    padding: 24px;
 }
 
 
@@ -366,7 +379,7 @@ section .hero {
     padding: 4px 6px;
     border-radius: 6px;
     position: absolute;
-    bottom: -36px;
+    bottom: -100px;
     left: 0;
 }
 
@@ -397,7 +410,7 @@ section .hero {
 .footer-description {
     font-family: 'Roboto';
     color: #a8a8a8;
-    font-size: 22px;
-    margin-top: 18px;
+    font-size: 18px;
+    margin-top: 24px;
 }
 
